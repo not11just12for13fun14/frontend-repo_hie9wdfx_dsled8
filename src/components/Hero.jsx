@@ -16,14 +16,14 @@ export default function Hero() {
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 px-3 py-1 text-xs text-slate-700">
-            Premium Consultancy • Sustainable Change
+            Behavioural Change • Algorithmical Representation
           </div>
           <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-slate-900">
-            Help for leaders creating
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-rose-700"> sustainable change</span>
+            Erik Bohjort Consulting
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-rose-700"> leading change through people and data</span>
           </h1>
           <p className="mt-5 text-base sm:text-lg text-slate-700/80 max-w-xl">
-            We partner with executives to design, activate, and scale transformations that last—combining pragmatic strategy with human-centered adoption.
+            We help organisations design, activate, and sustain behavioural change—augmented by algorithmic models that turn human dynamics into actionable insight.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#contact" className="inline-flex items-center rounded-full bg-slate-900 text-white px-5 py-3 text-sm hover:bg-slate-800 transition-colors">Book an intro call</a>
@@ -32,7 +32,7 @@ export default function Hero() {
           <div className="mt-8 grid grid-cols-3 gap-6 text-center">
             {[
               { n: '10x', l: 'Adoption velocity' },
-              { n: '95%', l: 'Executive satisfaction' },
+              { n: '95%', l: 'Leader satisfaction' },
               { n: '24m', l: 'Avg. partnership' },
             ].map((s, i) => (
               <motion.div key={s.l} initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 + i * 0.08 }} className="rounded-xl bg-white/70 border border-slate-200 p-4">

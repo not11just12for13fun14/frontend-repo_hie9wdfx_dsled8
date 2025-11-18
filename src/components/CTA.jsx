@@ -21,7 +21,7 @@ export default function CTA() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          Ready to create sustainable change?
+          Start a conversation with Erik
         </motion.h2>
         <motion.p
           className="mt-4 text-slate-300 max-w-2xl mx-auto"
@@ -30,7 +30,7 @@ export default function CTA() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          Tell us where you want to be in 12 months. We'll help you design the path and make it stick.
+          Share your context and constraints. Well respond with a pragmatic path forward grounded in behavioural insight and data.
         </motion.p>
         <motion.form
           className="mt-10 grid sm:grid-cols-3 gap-3 max-w-3xl mx-auto"

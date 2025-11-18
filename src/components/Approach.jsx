@@ -4,18 +4,18 @@ export default function Approach() {
   const items = [
     {
       k: '01',
-      t: 'Diagnose with clarity',
-      d: 'We map incentives, behaviors, and systems to uncover root causes—not just symptoms.'
+      t: 'Model behaviours, not assumptions',
+      d: 'We map incentives and interactions to understand how change truly propagates in your context.'
     },
     {
       k: '02',
-      t: 'Design pragmatic paths',
-      d: 'We co-create choices that fit your culture and constraints, sequencing moves for momentum.'
+      t: 'Design with data and empathy',
+      d: 'We combine qualitative insight with algorithmic representation to craft pragmatic pathways.'
     },
     {
       k: '03',
-      t: 'Activate and embed',
-      d: 'We equip leaders and teams to adopt, measure, and sustain change over time.'
+      t: 'Embed and measure adoption',
+      d: 'We enable leaders to role‑model, reinforce, and measure the shifts that matter.'
     }
   ];
 
@@ -30,8 +30,8 @@ export default function Approach() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div style={{ opacity }} initial={{ opacity: 0 }}>
           <div className="max-w-2xl">
-            <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900">A calm, proven approach</h2>
-            <p className="mt-4 text-slate-700/80">Less theater. More outcomes. We focus on compounding wins that endure.</p>
+            <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900">Behavioural change, algorithmically informed</h2>
+            <p className="mt-4 text-slate-700/80">From diagnosis to activation, we turn human dynamics into repeatable outcomes.</p>
           </div>
         </motion.div>
 

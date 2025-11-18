@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 export default function Proof() {
-  const logos = ['Acme', 'Northwind', 'Globex', 'Umbrella', 'Initech', 'Stark'];
+  const logos = ['Klarna', 'Volvo', 'Spotify', 'IKEA', 'H&M', 'Ericsson'];
 
   return (
     <section id="proof" className="py-20 bg-white overflow-hidden">

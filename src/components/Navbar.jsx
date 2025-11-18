@@ -32,14 +32,14 @@ export default function Navbar() {
         animate={{ scaleX: 1 }}
       />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between relative">
-        <a href="#" className="inline-flex items-center gap-2">
+        <a href="#" className="inline-flex items-center gap-2" aria-label="Erik Bohjort Consulting Home">
           <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-slate-900 to-slate-700" />
-          <span className="font-semibold tracking-tight text-slate-900">RedRipple Advisory</span>
+          <span className="font-semibold tracking-tight text-slate-900">Erik Bohjort Consulting</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-slate-700">
           <a href="#approach" className="hover:text-slate-900 transition-colors">Approach</a>
           <a href="#capabilities" className="hover:text-slate-900 transition-colors">Capabilities</a>
-          <a href="#proof" className="hover:text-slate-900 transition-colors">Proof</a>
+          <a href="#proof" className="hover:text-slate-900 transition-colors">Clients</a>
           <a href="#contact" className="ml-2 inline-flex items-center rounded-full bg-slate-900 px-4 py-2 text-white hover:bg-slate-800 transition-colors">Start a conversation</a>
         </nav>
         <button
@@ -65,7 +65,7 @@ export default function Navbar() {
             <div className="px-4 py-4 grid gap-3 text-slate-800">
               <a href="#approach" onClick={() => setOpen(false)} className="py-2">Approach</a>
               <a href="#capabilities" onClick={() => setOpen(false)} className="py-2">Capabilities</a>
-              <a href="#proof" onClick={() => setOpen(false)} className="py-2">Proof</a>
+              <a href="#proof" onClick={() => setOpen(false)} className="py-2">Clients</a>
               <a href="#contact" onClick={() => setOpen(false)} className="py-2 inline-flex items-center justify-center rounded-lg bg-slate-900 text-white px-4 h-11">Start a conversation</a>
             </div>
           </motion.nav>

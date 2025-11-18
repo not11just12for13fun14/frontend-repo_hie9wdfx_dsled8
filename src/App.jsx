@@ -17,7 +17,7 @@ function App() {
         <CTA />
       </main>
       <footer className="py-10 border-t border-slate-200 bg-white text-center text-sm text-slate-600">
-        © {new Date().getFullYear()} RedRipple Advisory. All rights reserved.
+        © {new Date().getFullYear()} Erik Bohjort Consulting. All rights reserved.
       </footer>
     </div>
   );

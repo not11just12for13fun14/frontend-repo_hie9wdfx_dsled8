@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 export default function Capabilities() {
   const caps = [
-    { icon: Target, title: 'Strategy to activation', desc: 'Translate strategy into concrete adoption plans that people follow.' },
-    { icon: LineChart, title: 'Operating model shifts', desc: 'Design structures, metrics, and rituals that support new ways of working.' },
-    { icon: Users, title: 'Leadership enablement', desc: 'Coach leaders to communicate, role-model, and reinforce desired change.' }
+    { icon: Target, title: 'Change strategy → activation', desc: 'Translate strategy into adoption plans grounded in how people actually behave.' },
+    { icon: LineChart, title: 'Org & operating model', desc: 'Design structures, metrics, and rituals that reinforce new behaviours at scale.' },
+    { icon: Users, title: 'Leadership & teams', desc: 'Coach leaders and teams to role‑model, communicate, and sustain momentum.' }
   ];
 
   return (
@@ -23,8 +23,8 @@ export default function Capabilities() {
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900">What we do</h2>
-          <p className="mt-4 text-slate-700/80">Hands-on partnership from the C-suite to the front line.</p>
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900">Capabilities</h2>
+          <p className="mt-4 text-slate-700/80">Behavioural change amplified by algorithmic insight.</p>
         </div>
 
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
